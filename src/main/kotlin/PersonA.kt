@@ -1,15 +1,6 @@
-class PersonA (_firstName: String, _lastName: String, _age: Int) {
-    var firstName:String
-    var lastName:String
-    var age: Int
-    init {
-        firstName = _firstName
-        lastName = _lastName
-        age = _age
-    }
-}
+class PersonC (var firstName: String, var lastName: String, var age: Int) {}
 fun main(){
-    val mita = PersonA("Dewi Asmita", "Lubis", 21)
+    val mita = PersonC("Dewi ASmita", "Lubis", 21)
     println("Name : ${mita.firstName} ${mita.lastName}")
     println("Age : ${mita.age}")
 }
